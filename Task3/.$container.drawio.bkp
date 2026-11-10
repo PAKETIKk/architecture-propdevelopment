@@ -73,7 +73,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="nFB4tpNnGNIT1_HhN5Ei-117"
-                    value="Аутентификация&amp;nbsp;&lt;div&gt;менеджеров&lt;/div&gt;"
+                    value="Аутентификация&amp;amp;nbsp;&lt;div&gt;менеджеров&lt;/div&gt;"
                     style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];"
                     connectable="0" vertex="1" parent="nFB4tpNnGNIT1_HhN5Ei-116">
                     <mxGeometry x="0.233" y="-1" relative="1" as="geometry">
@@ -105,7 +105,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="nFB4tpNnGNIT1_HhN5Ei-120"
-                    value="Аутентификация&amp;nbsp;&lt;div&gt;менеджеров&lt;/div&gt;"
+                    value="Аутентификация&amp;amp;nbsp;&lt;div&gt;менеджеров&lt;/div&gt;"
                     style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];"
                     connectable="0" vertex="1" parent="nFB4tpNnGNIT1_HhN5Ei-119">
                     <mxGeometry x="0.3218" y="6" relative="1" as="geometry">
@@ -733,7 +733,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="nFB4tpNnGNIT1_HhN5Ei-191"
-                    value="Аутентификация&amp;nbsp;&lt;div&gt;бизнес-аналитика&lt;/div&gt;"
+                    value="Аутентификация&amp;amp;nbsp;&lt;div&gt;бизнес-аналитика&lt;/div&gt;"
                     style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];"
                     connectable="0" vertex="1" parent="nFB4tpNnGNIT1_HhN5Ei-190">
                     <mxGeometry x="0.1545" y="-2" relative="1" as="geometry">
@@ -784,7 +784,7 @@
                     vertex="1" parent="1">
                     <mxGeometry x="1560" y="275" width="60" height="30" as="geometry" />
                 </mxCell>
-                <mxCell id="nFB4tpNnGNIT1_HhN5Ei-199" value="&lt;b&gt;Группа сервисов&amp;nbsp;&lt;/b&gt;&lt;b style=&quot; background-color: initial;&quot;&gt;ЖКУ&lt;/b&gt;"
+                <mxCell id="nFB4tpNnGNIT1_HhN5Ei-199" value="&lt;b&gt;Группа сервисов&amp;amp;nbsp;&lt;/b&gt;&lt;b style=&quot; background-color: initial;&quot;&gt;ЖКУ&lt;/b&gt;"
                     style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;"
                     vertex="1" parent="1">
                     <mxGeometry x="1730" y="400" width="90" height="30" as="geometry" />
@@ -831,7 +831,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="nFB4tpNnGNIT1_HhN5Ei-205"
-                    value="Публикация&amp;nbsp;&lt;div&gt;каталога объектов&lt;div&gt;[Kafka]&lt;/div&gt;&lt;/div&gt;"
+                    value="Публикация&amp;amp;nbsp;&lt;div&gt;каталога объектов&lt;div&gt;[Kafka]&lt;/div&gt;&lt;/div&gt;"
                     style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];"
                     connectable="0" vertex="1" parent="nFB4tpNnGNIT1_HhN5Ei-204">
                     <mxGeometry x="0.1891" y="1" relative="1" as="geometry">
