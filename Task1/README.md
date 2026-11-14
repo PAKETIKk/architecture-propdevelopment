@@ -1,0 +1,1 @@
+![alt](./mindmap.jpg)

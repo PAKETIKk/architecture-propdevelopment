@@ -1,0 +1,48 @@
+# rolebinding-security-admin
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-security-admin
+  namespace: development
+subjects:
+- kind: ServiceAccount
+  name: security-admin-user
+  namespace: development
+roleRef:
+  kind: Role
+  name: security-admin
+  apiGroup: rbac.authorization.k8s.io
+
+---
+
+# rolebinding-viewer
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-viewer
+  namespace: development
+subjects:
+- kind: ServiceAccount
+  name: viewer-user
+  namespace: development
+roleRef:
+  kind: Role
+  name: viewer
+  apiGroup: rbac.authorization.k8s.io
+
+---
+
+# rolebinding-writer
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rolebinding-writer
+  namespace: development
+subjects:
+- kind: ServiceAccount
+  name: writer-user
+  namespace: development
+roleRef:
+  kind: Role
+  name: writer
+  apiGroup: rbac.authorization.k8s.io

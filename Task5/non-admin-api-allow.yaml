@@ -1,0 +1,49 @@
+# front-end <-> back-end-api
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend-to-backend
+spec:
+  podSelector:
+    matchExpressions:
+      - key: role
+        operator: In
+        values:
+          - front-end
+          - back-end-api
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+        - podSelector:
+            matchLabels:
+              role: front-end
+        - podSelector:
+            matchLabels:
+              role: back-end-api
+
+---
+
+# admin-front-end <-> admin-back-end-api
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend-to-backend
+spec:
+  podSelector:
+    matchExpressions:
+      - key: role
+        operator: In
+        values:
+          - admin-front-end
+          - admin-back-end-api
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+        - podSelector:
+            matchLabels:
+              role: admin-front-end
+        - podSelector:
+            matchLabels:
+              role: admin-back-end-api
