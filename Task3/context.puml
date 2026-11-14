@@ -1,0 +1,19 @@
+@startuml
+title Контекстная диаграмма внешней интеграции «Умный дом»
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Context.puml
+' Пользователи и система
+Person(user, "Пользователь", 'Пользователь приложения компании PropDevelopment')
+' Система
+System(system, "Система PropDevelopment", '')
+' Внешние системы
+System_Ext(smartHome, "«Умный дом»", 'Сервис умного дома партнера')
+System_Ext(home_dev_0, "Домофон", 'Интеллектуальный домофон')
+System_Ext(home_dev_1, "Шлагбаум", 'Интеллектуальный шлагбаум')
+' Отношения между элементами
+user ..> system : "Управляет устройствами через мобильное приложение"
+system ..> smartHome : "Отправляет команды управления устройствами"
+smartHome ..> home_dev_0: "Управляет домофоном"
+smartHome ..> home_dev_1: "Управляет шлагбаумом"
+home_dev_0 ..> smartHome: "Отправляет данные биометрической аутентификации"
+home_dev_1 ..> smartHome: "Отправляет данные распорзнанных номеров автомобилей"
+@enduml 
